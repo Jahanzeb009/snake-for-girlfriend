@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Snake",
-    "slug": "Snake",
+    "name": "SnakeOla",
+    "slug": "snake-ola",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +17,7 @@
     "ios": {
       "supportsTablet": true,
       "icon": "./assets/icon.png",
-      "bundleIdentifier": "com.uek.plan"
+      "bundleIdentifier": "com.snake.ola"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,6 +40,17 @@
         "wasm",
         "svg"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49a30167-5461-49af-ac1b-30d99c240616"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/49a30167-5461-49af-ac1b-30d99c240616"
     }
   },
   "react-native-google-mobile-ads": {
